@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CALCULATOR</title>
     <link rel="stylesheet" href="css/calculator.css" type="text/css">
-    <script defer src="js/calculator.js"></script>
+    
 </head>
 <body>
     <div id="calculator">
         <input id="display" readonly>
         <div id="buttons">
-            <button class="operator" onclick="all_Clear()">AC</button>
-            <button class="operator" onclick="digit_Del()">DEL</button>
+            <button class="operator" onclick="all_Clear()">Ac</button>
+            <button class="operator" onclick="digit_Del()">Del</button>
             <button class="operator" onclick="digit_calculate('%')">%</button>
             <button class="operator" onclick="digit_calculate('/')">/</button>
             <button onclick="digit_calculate('7')">7</button>
@@ -26,12 +26,14 @@
             <button onclick="digit_calculate('1')">1</button>
             <button onclick="digit_calculate('2')">2</button>
             <button onclick="digit_calculate('3')">3</button>
-            <button class="operator" onclick="digit_calculate('+')">+</button>
+            <button class="operator"" onclick="digit_calculate('+')" >+</button>
             <button onclick="digit_calculate('00')">00</button>
             <button onclick="digit_calculate('0')">0</button>
             <button class="operator" onclick="digit_calculate('.')">.</button>
             <button class="operator" onclick="Calculate()">=</button>
+            
         </div>
     </div>
+    <script defer src="js/calculator.js"></script>
 </body>
 </html>
